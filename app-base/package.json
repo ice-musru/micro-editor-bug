@@ -1,0 +1,61 @@
+{
+  "name": "app-base",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@micro-zoe/micro-app": "^0.2.4",
+    "@micro-zoe/plugin-painful-joya": "^1.0.0",
+    "core-js": "^3.8.3",
+    "element-ui": "^2.15.5",
+    "js-cookie": "^3.0.0",
+    "path": "^0.12.7",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0-beta.3",
+    "@vue/cli-plugin-eslint": "~5.0.0-beta.3",
+    "@vue/cli-plugin-router": "~5.0.0-beta.3",
+    "@vue/cli-service": "~5.0.0-beta.3",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "dart-sass": "^1.25.0",
+    "eslint": "^7.20.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^7.6.0",
+    "sass": "^1.37.5",
+    "sass-loader": "^12.1.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/standard"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "_id": "app-base@0.1.0",
+  "readme": "ERROR: No README data found!"
+}
